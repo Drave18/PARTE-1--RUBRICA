@@ -50,6 +50,11 @@ h1 {
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.receta img:hover {
+    transform: scale(1.05);
 }
 
 .receta h3 {
